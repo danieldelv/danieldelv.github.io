@@ -1,0 +1,81 @@
+html {
+	font-family: 'Lora', serif;
+}
+
+h1 {
+	background-color: #09c69c;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+p {
+	text-align: left;
+}
+
+footer {
+	font-size: 12px;
+	text-align: center;
+	margin: 0px auto;
+	font-weight: bold;
+}
+
+strong {
+	font-size: 14px;
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+	padding: 16px;
+}
+
+li {
+	font-size: 14px;
+	display: inline;
+	font-weight: bold;
+	padding: 15px;
+}
+
+img {
+	display: block;
+	width: 500px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.menu {
+	width: 600px;
+	margin: 0px auto;
+}
+
+.placetitle {
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#maui {
+	background-color: #c4defc;
+	width: 600px;
+	margin: 20px auto;
+	padding: 25px;
+}
+
+#rekjavik {
+	background-color: #c2f2e3;
+	width: 600px;
+	margin: 20px auto;
+	padding: 25px;
+}
+
+#aspen {
+	background-color: #c4defc;
+	width: 600px;
+	margin: 20px auto;
+	padding: 25px;
+}
+
