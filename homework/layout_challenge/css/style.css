@@ -1,0 +1,153 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  background: lightgray;
+  border: 1px solid gray;
+}
+
+#two-column .container {
+  height: 200px;
+  margin: 25px;
+}
+
+#two-column .middle {
+	height: 400px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: normal;
+	margin: 25px;
+}
+
+#two-column .middle .box {
+	background: lightgray;
+  border: 1px solid gray;
+	width: 70%;
+	margin: 25px 0px 25px 0px;
+	padding: 25px;
+}
+
+#two-column .middle .box2 {
+	background: lightgray;
+  border: 1px solid gray;
+	width: 30%;
+	margin: 25px 0px 25px 25px;
+	padding: 25px;
+}
+
+#two-column .bottom {
+  height: 200px;
+}
+
+#three-column .container {
+  height: 200px;
+  margin: 25px;
+}
+
+#three-column .middle {
+	height: 400px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: normal;
+	margin: 25px;
+}
+
+#three-column .middle .box {
+	background: lightgray;
+  border: 1px solid gray;
+	width: 100%;
+	margin: 25px 0px 25px 0px;
+	padding: 25px;
+}
+
+#three-column .middle .box2 {
+	background: lightgray;
+  border: 1px solid gray;
+	width: 100%;
+	margin: 25px 0px 25px 25px;
+	padding: 25px;
+}
+
+#three-column .middle .box3 {
+	background: lightgray;
+  border: 1px solid gray;
+	width: 100%;
+	margin: 25px 0px 25px 25px;
+	padding: 25px;
+}
+
+#three-column .bottom {
+  height: 200px;
+}
+
+#simple-marketing .container {
+  height: 100px;
+  margin: 10px;
+}
+
+#simple-marketing .container2 {
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	margin: 10px;
+}
+
+#simple-marketing .container2 .box {
+	background: lightgray;
+  border: 1px solid gray;
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+}
+
+#simple-marketing .container2 .box2 {
+	background: lightgray;
+  border: 1px solid gray;
+	width: 100%;
+	margin: 10px 0px 10px 10px;
+}
+
+
+#simple-marketing .container3 {
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: normal;
+	margin: 10px;
+}
+
+
+#simple-marketing .container3 .box {
+	background: lightgray;
+  border: 1px solid gray;
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+	padding: 0px;
+}
+
+#simple-marketing .container3 .box2 {
+	background: lightgray;
+  border: 1px solid gray;
+	width: 100%;
+	margin: 10px 0px 10px 10px;
+	padding: 0px;
+}
+
+#simple-marketing .container3 .box3 {
+	background: lightgray;
+  border: 1px solid gray;
+	width: 100%;
+	margin: 10px 0px 10px 10px;
+	padding: 0px;
+}
+
+#simple-marketing .bottom {
+  height: 100px;
+}
+
+
+
+
+
