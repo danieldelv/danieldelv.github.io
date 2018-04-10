@@ -1,0 +1,136 @@
+/* FONT FAMILY HELPERS :)
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+
+html {
+	background-color: #c6c6c6;
+	background-image: url("https://fsgworkinprogress.com/wp-content/uploads/2018/04/coworking.jpg");
+
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 800px;
+}
+
+h1, h2, {
+	font-family: 'Merriweather', serif;
+}
+
+header {
+	display: flex;
+  	justify-content: space-between;
+  	background: #000000;
+  	height: 50px;
+  	align-items: center;
+  	border-bottom: 5px solid #fffd54;
+
+}
+
+header .left {
+	flex-basis: 300px;
+}
+
+header .right {
+	display: flex;
+  	justify-content: space-around;
+  	flex-basis: 500px;
+}
+
+header .page {
+	font-size: 12px;
+	color: #ffffff;
+}
+
+h1 {
+	font-size: 25px;
+	color: #fffd54;
+	margin: 0;
+	text-align: center;
+}
+
+.middle h2, .bottom h2 {
+	font-size: 25px;
+	margin: 0;
+}
+
+.middle h3, .bottom h3 {
+	font-size: 15px;
+	margin: 0;
+}
+
+strike {
+	color: #999999;
+}
+
+.line {
+	color: #fffd54;
+	text-decoration-style: underline;
+
+}
+
+.tagline {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #C6C6C6;
+	height: 50px;
+	text-align: center;
+}
+
+
+footer {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background: #000000;
+  	height: 35px;
+  	color: white;
+  	font-size: 15px;
+  	padding: 10px;
+
+}
+
+.middle {
+	display: flex;
+	justify-content: flex-end;
+	justify-self: flex-end;
+	flex-direction: column;
+	text-align: left;
+	background: rgba(238, 238, 238, .7);
+	border: 1px solid black;
+	margin: 20px;
+	padding: 20px;
+}
+
+.bottom {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	background: #eeeeee;
+	height: 200px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.bottom .mediumbox .button, .middle .button {
+	font-family: 'Oswald', sans-serif;
+	align-items: center;
+	width: 200px;
+	border: 1px black solid;
+	color: black;
+	border-radius: 3px;
+	background: #C6C6C6;
+	text-align: center;
+	margin: 10px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.middle .button {
+	background: #fffd54;
+	align-self: center;
+}
