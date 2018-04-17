@@ -4,11 +4,6 @@ font-family: 'Merriweather', serif;
 font-family: 'Source Sans Pro', sans-serif; */
 
 
-html {
-	background-color: #c6c6c6;
-	background-image: url("https://fsgworkinprogress.com/wp-content/uploads/2018/04/coworking.jpg");
-
-}
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -23,7 +18,6 @@ header {
 	display: flex;
   	justify-content: space-between;
   	background: #000000;
-  	height: 50px;
   	align-items: center;
   	border-bottom: 5px solid #fffd54;
 
@@ -93,15 +87,21 @@ footer {
 
 }
 
+.overlay {
+	border: 1px solid black;
+		flex-basis: 400px;
+	background: rgba(288, 288, 288, .7);
+}
+
 .middle {
+	background-color: #c6c6c6;
+	background-image: url(../img/coworking.jpg);
+	background-size: cover;
+	background-position: center;
 	display: flex;
 	justify-content: flex-end;
-	justify-self: flex-end;
-	flex-direction: column;
-	text-align: left;
-	background: rgba(238, 238, 238, .7);
+
 	border: 1px solid black;
-	margin: 20px;
 	padding: 20px;
 }
 
@@ -125,9 +125,7 @@ footer {
 	border-radius: 3px;
 	background: #C6C6C6;
 	text-align: center;
-	margin: 10px;
-	height: 40px;
-	margin: 0 auto;
+	padding: 20px;
 }
 
 .middle .button {
