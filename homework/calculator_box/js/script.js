@@ -8,38 +8,106 @@
 
 //• Clicking the center box will make its background white and reset the value inside to zero
 
-function a10() {
-	var topleft = document.querySelector('#a10').value = 10;
-}
+total = 0
 
-function a20() {
-	var topmiddle = document.querySelector('#a20').value = 20;
-}
+// +10
 
-function a30() {
-	var topright = document.querySelector('#a30').value = 30;
-}
+	var plusTen = document.querySelector("#a10")
 
-function changeColorRed()	{
-	var red = document.querySelector('#red').value;
-}
+	document.querySelector("#a10").onclick = addTen
 
-function changeColorBlue()	{
-	var red = document.querySelector('#blue').value;
-}
+	function addTen() {
+		total = total + 10
 
-function n10() {
-	var bottomleft = document.querySelector('#n10').value = -10;
-}
+		document.querySelector("#out").innerHTML = total
+	}
 
-function n20() {
-	var bottommiddle = document.querySelector('#n20').value = -20;
-}
+// + 20
 
-function n30() {
-	var bottomright = document.querySelector('#n30').value = -30;
-}
+	var plusTwenty = document.querySelector("#a20")
 
-document.querySelector('#out').onclick = a10;
-document.querySelector('#a10').innerHTML;
-console.log(changeColorBlue)
+	document.querySelector("#a20").onclick = addTwenty
+
+	function addTwenty() {
+		total = total + 20
+
+		document.querySelector("#out").innerHTML = total
+	}
+
+// +30
+
+	var plusThirty = document.querySelector("#a30")
+
+	document.querySelector("#a30").onclick = addThirty
+
+	function addThirty() {
+		total = total + 30
+
+		document.querySelector("#out").innerHTML = total
+	}
+
+// -10
+
+	var minusTen = document.querySelector("#n10")
+
+	document.querySelector("#n10").onclick = subtractTen
+
+	function subtractTen() {
+		total = total - 10
+
+		document.querySelector("#out").innerHTML = total
+	}
+
+// -20
+
+	var minusTwenty = document.querySelector("#n20")
+
+	document.querySelector("#n20").onclick = subtractTwenty
+
+	function subtractTwenty() {
+		total = total - 20
+
+		document.querySelector("#out").innerHTML = total
+	}
+
+// -30
+
+	var minusThirty = document.querySelector("#n30")
+
+	document.querySelector("#n30").onclick = subtractThirty
+
+	function subtractThirty() {
+		total = total - 30
+
+		document.querySelector("#out").innerHTML = total
+	}
+
+// red
+
+	var red = document.querySelector("#red")
+
+	document.querySelector("#red").onclick = turnRed
+
+	function turnRed() {
+		document.querySelector("#out").style.background = ("red")
+	}
+
+
+// blue
+
+	var blue = document.querySelector("#blue")
+
+	document.querySelector("#blue").onclick = turnBlue
+
+	function turnBlue() {
+		document.querySelector("#out").style.background = ("blue")
+	}
+
+//reset
+
+	var reset = document.querySelector("#out")
+
+	function reset() {
+	document.querySelector("#out").onclick = total
+	document.querySelector("#out").onclick.style.background = ("white")
+}
