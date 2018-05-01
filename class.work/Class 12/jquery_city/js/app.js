@@ -2,27 +2,38 @@
 // 2. Use .attr() to change the `src` attribute of #bigimage to correspond to image that was clicked
 
 
-	$("#first").click(thumbnailOne)
+$(".thumb").click(changeImage);
 
-	function thumbnailOne() {
-		$("#bigimage").attr("src", "img/1.jpg")
-	}
+function changeImage(event) {
+	var newSrc = $(event.currentTarget).attr("src");
 
-$("#second").click(thumbnailTwo)
+	$("#bigimage").attr("src", newSrc);
+}
 
-function thumbnailTwo() {
-		$("#bigimage").attr("src", "img/2.jpg")
-	}
+// 
 
-$("#third").click(thumbnailThree)
+//	$("#first").click(thumbnailOne)
 
-function thumbnailThree() {
-		$("#bigimage").attr("src", "img/3.jpg")
-	}
+//	function thumbnailOne(event) {
+//		var newSrc = $(event.currentTarget).attr("src");
+//		$(event.currentTarget).attr("src", "img/1.jpg")
+//	}
 
-$("#fourth").click(thumbnailFour)
+//$("#second").click(thumbnailTwo)
 
-function thumbnailFour() {
-		$("#bigimage").attr("src", "img/4.jpg")
-	}
+//function thumbnailTwo() {
+//		$("#bigimage").attr("src", "img/2.jpg")
+//	}
+
+//$("#third").click(thumbnailThree)
+
+//function thumbnailThree() {
+//		$("#bigimage").attr("src", "img/3.jpg")
+//	}
+
+//$("#fourth").click(thumbnailFour)
+
+//function thumbnailFour() {
+//		$("#bigimage").attr("src", "img/4.jpg")
+//	}
 

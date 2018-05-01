@@ -1,0 +1,15 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  width: 800px;
+}
+
+.gray-box {
+  height: 150px;
+  background-color: lightgray;
+  border: solid 1px black;
+  margin: 20px;
+}

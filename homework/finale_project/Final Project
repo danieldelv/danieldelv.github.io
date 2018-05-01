@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sarah Crichton Books</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/finalproject.css">
+</head>
+<body>
+	!--
+	body
+		header
+			left section
+			right section
+				Books
+				Featured
+				Bestsellers
+				About
+		main
+			Books Overlay
+			Featured
+			Bestsellers
+			About
+	footer
+	-->
+	<header>
+		<div class ="logo"></div>
+		<div class ="nav">Books</div>
+		<div class ="nav">Featured</div>
+		<div class ="nav">Bestsellers</div>
+		<div class ="nav">About</div>
+	</header>
+
+	<main>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</main>
+
+	<footer></footer>

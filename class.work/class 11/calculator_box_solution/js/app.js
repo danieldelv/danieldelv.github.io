@@ -88,5 +88,5 @@ function reset() {
 	total = 0;
 
 	$("#out").html(total);
-	$("#out").css("background-color", "white") document.querySelector("#out").style.background = "white";
+	$("#out").css("background-color", "white") 
 }

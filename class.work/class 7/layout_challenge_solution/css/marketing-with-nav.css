@@ -1,0 +1,17 @@
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+header .left {
+	flex-grow: ;
+}
+
+header .right {
+	flex-grow: 4;
+}
+
+.tiny {
+	width: 100px;
+	height: 50px;
+}
