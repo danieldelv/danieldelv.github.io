@@ -20,7 +20,7 @@ $.ajax({
       $("body").append(stations.name);
       console.log(stations.name.length);
       
-      if (stations.free === 0) {
+      if (stations.free >= 0) {
         $("body").splice(stations.free);
        } else (
         $("body").append(stations.free));
