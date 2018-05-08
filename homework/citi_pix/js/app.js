@@ -7,10 +7,24 @@
 
 	function changeCity () {
 		var userSelection = $("#city-type").val();
-		if (userSelection) {
-			$("body").addClass("background-image", "url(../images/nyc.jpg)");
-		}
+		$("body").addClass(userSelection);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // $("body").change(function () {
 //		var userSelection = $("#city-type").val();

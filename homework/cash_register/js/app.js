@@ -38,3 +38,5 @@ function register () {
   $("#newEntry").val("");
    } 
 
+// $(#entries).append("<tr><td></td><td>" + newEntry + "</td></tr>")
+
