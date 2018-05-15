@@ -5,7 +5,7 @@
 
  var map;
       function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
+        var map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 40.7128, lng: -74.0060},
           zoom: 13
          });
@@ -13,14 +13,13 @@
           position: {lat: 40.7128, lng: -74.001},
           map: map
         });
-      }
-
-
-    var mapOptions = new google.maps.Marker({
+    
+    var mapOptions = new google.maps.mapOptions({
   		zoom: 13,
   		center: {lat: 40.7128, lng: -74.0060},
   		mapTypeId: 'terrain'
 });
+      }
 // As a User
 // When I view the site
 // I expect to only see NYC
