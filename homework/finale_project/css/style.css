@@ -49,6 +49,10 @@ nav a:hover {
 main {
 }
 
+.books, .bestsellers, .featured, .about, .detail {
+  border: 1px solid #FFD0B9;
+  padding: 50px;
+}
 
 
 .books, .bestsellers  {
