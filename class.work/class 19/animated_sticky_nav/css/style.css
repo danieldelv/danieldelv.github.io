@@ -1,0 +1,26 @@
+.wrapper {
+	text-align: center;
+	padding-top: 100px;
+}
+
+header {
+	background: blue;
+	height: 100px;
+	position: fixed;
+	width: 100%;
+	font-size: 75px;
+	transition: all 1s ease-out;
+}
+
+img {
+  width: 100%;
+  max-width: 800px;
+}
+
+.red {
+	background: red;
+}
+/*As a user
+when I scroll
+I want to see the header text shrink
+*/

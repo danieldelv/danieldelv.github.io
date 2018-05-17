@@ -11,23 +11,35 @@
 
 // As a user 
 // I want to logo to change color onclick of logo
+// var url = "https://images.macmillan.com/folio-assets/macmillan_us_frontbookcovers_1000H/" + number + ".jpg"
+// attr
+// var newSrc = $(event.currentTarget).attr("src");
 
+//  $("#bigimage").attr("src", newSrc);
+//
 
 $.ajax({
   type: 'GET',
-  url: 'https://api.myjson.com/bins/n2192',
+  url: 'https://api.myjson.com/bins/hh1wu',
   success: function (books) {
-  	var book = books.splice(1, 3);
+  	var book = books.splice(10, 132);
     
     book.forEach(function(bookentries) {
+    var isbn = bookentries.J;
+    var url = "https://images.macmillan.com/folio-assets/macmillan_us_frontbookcovers_1000H/" + isbn + ".jpg";
+
    	var titlename = bookentries.B;
     var author = bookentries.A;
     var genre = bookentries.C;
     var year = bookentries.G;
     var catalog = bookentries.Q;
 
-     $("body").append("<p>" + titlename + author + year + genre + catalog + "</p>")
-	console.log(books)
+    $(".detail").append("<img class='bookcover' src='" + url + "' alt=titlename>");
+    $(".detail").append("<h1>" + titlename + "</h1>");
+    $(".detail").append("<h2>" + author + "</h2>");
+    $(".detail").append("<h3>" + genre +  "&nbsp;(" + year + ")" + "</h3>");
+    $(".detail").append("<p>" + catalog + "</p>");
+ console.log(url)
     })
 }
     })

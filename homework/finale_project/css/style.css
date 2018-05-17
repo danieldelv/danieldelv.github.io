@@ -1,17 +1,19 @@
 body, html {
+  font-family: 'Fanwood Text', serif;
   font-size: 18px;
   height: 100%;
-  margin: 0;
+  margin: 0px;
 }
 
 .container {
 	width: 75%;
-  	margin: 0 auto;
-  	max-width: 1280px;
+  margin: 0 auto;
+  max-width: 1280px;
 }
 
 header {
 	justify-content: space-between;
+  font-size: 2rem;
 	background-color: white;
   text-decoration: none;
   text-align: center;
@@ -34,7 +36,7 @@ nav a {
   justify-content: space-around;
   background-color: white;
   text-align: center;
-  border: 1px solid #777777;
+  border: 1px solid #FFD0B9;
   color: black;
   text-decoration: none;
   font-size: 1.25rem;
@@ -47,25 +49,65 @@ nav a:hover {
 main {
 }
 
-.books, .bestsellers {
-	background-color: #2E363D;
-	border: 2px solid #777777;
-  padding: 25px;
+.books, .bestsellers, .featured, .about, .detail {
+  border: 1px solid #FFD0B9;
+  padding: 50px;
 }
 
-.featured, .about {
-	background-color: white;
-	border: 2px solid #777777;
-  padding: 25px;
+
+.books, .bestsellers  {
+	background-color: #2E363D;
+}
+
+.featured, .about, .detail, .scbbestsellers, .featuredbooks, .aboutsarah {
+	background-color: #F5F1EB;
+}
+
+.scbbestsellers, .featuredbooks, .aboutsarah {
+  margin: 0px;
+  padding: 50px;
+  text-align: center;
+}
+
+
+.detail {
+  border: 1px solid #FFD0B9;
+  background-color: #F5F1EB;
+  margin: 0px;
+  padding: 50px;
+}
+
+.detail h1, .detail h2, .detail h3 {
+  text-align: center;
+  margin: 5px;
+}
+
+.detail p {
+  text-align: center;
+  margin: 20px 20px 50px 20px;
+}
+
+.detail img {
+  width: 350px;
+  border: 1px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
   color: #2D927C;
+  font-size: 40px;
 }
 
 h2 {
 	color: #2D927C;
 	font-size: 30px;
+}
+
+h3 {
+  color: #777777;
+  font-size: 20px;
 }
 
 p {
@@ -77,4 +119,7 @@ footer {
   color: #2D927C;
   text-align: center;
   padding: 15px;
+  border: 1px solid #FFD0B9;
+  margin: 0px;
 }
+
