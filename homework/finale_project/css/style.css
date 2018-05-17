@@ -61,7 +61,6 @@ nav a:hover {
 }
 
 .scbbestsellers, .featuredbooks, .aboutsarah {
-  margin: 0px;
   padding: 50px;
   text-align: center;
 }
@@ -94,6 +93,7 @@ nav a:hover {
 h1 {
   color: #2D927C;
   font-size: 40px;
+  margin: 0px;
 }
 
 h2 {
@@ -120,3 +120,4 @@ footer {
   margin: 0px;
 }
 
+ 
