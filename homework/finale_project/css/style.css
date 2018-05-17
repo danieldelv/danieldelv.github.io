@@ -46,9 +46,6 @@ nav a:hover {
   background: #DDD4C8;
 }
 
-main {
-}
-
 .books, .bestsellers, .featured, .about, .detail {
   border: 1px solid #FFD0B9;
   padding: 50px;
@@ -116,6 +113,7 @@ p {
 
 footer {
   color: #2D927C;
+  font-size: 1rem;
   text-align: center;
   padding: 15px;
   border: 1px solid #FFD0B9;
